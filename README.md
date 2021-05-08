@@ -1,5 +1,5 @@
-Google Homepage Clone
+<h1>Google Homepage Clone<h1>
 
-A copy of the Google homepage re-created using HTML and CSS.
+<p>A copy of the Google homepage re-created using HTML and CSS.</p>
 
 <p><a href="https://lolazers.github.io/Google-Clone/">See Live Demo</a></p>
