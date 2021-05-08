@@ -5,7 +5,7 @@
 
 body {
     font-family: arial, sans-serif;
-    font-size: 14px;
+    font-size: 0.9rem;
 }
 
 .container {
@@ -42,6 +42,18 @@ a:hover {
 .header-links div a {
     margin-right: 1rem;
     color: #333;
+}
+
+.apps span {
+    display: inline-block;
+    border-radius: 50%;
+    
+}
+
+.apps span:hover {
+    background-color: #ededed;
+    box-shadow: 0 0 0 9px #ededed;
+    cursor: pointer;
 }
 
 
@@ -145,4 +157,10 @@ a:hover {
         justify-content: space-evenly;
         flex-wrap: wrap;
     } 
+}
+
+@media (max-width: 573px) {
+    .footer-links p {
+        padding: 0.6rem 0;
+    }
 }
