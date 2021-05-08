@@ -2,4 +2,4 @@
 
 <p>A copy of the Google homepage re-created using HTML and CSS.</p>
 
-<p><a href="https://lolazers.github.io/Google-Clone/" target="_blank">See Live Demo</a></p>
+<p><a href="https://lolazers.github.io/Google-Clone/">See Live Demo</a></p>
