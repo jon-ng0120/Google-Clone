@@ -1,4 +1,4 @@
-<h1>Google Homepage Clone<h1>
+<h1>Google Homepage Clone</h1>
 
 <p>A copy of the Google homepage re-created using HTML and CSS.</p>
 
