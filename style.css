@@ -52,7 +52,7 @@ a:hover {
 
 .apps span:hover {
     background-color: #ededed;
-    box-shadow: 0 0 0 9px #ededed;
+    box-shadow: 0 0 0 7px #ededed;
     cursor: pointer;
 }
 
@@ -66,6 +66,11 @@ a:hover {
     border-radius: 50%;
     width: 2rem;
     height: 2rem;
+}
+
+.profile:hover {
+    box-shadow: 0 0 0 4px #ededed;
+    cursor: pointer;
 }
 
 
