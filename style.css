@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 1px gray solid;
+}
+
+/* HEADER */
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem;
+}
+
+.header-links div {
+    display: flex;
+    align-items: center;
+}
+
+.header-links div span {
+    color: gray;
+    margin-right: 1rem;
+}
+
+.header-links div a {
+    margin-right: 1rem;
+    color: #333;
+}
+
+
+.profile {
+    display: flex;
+    justify-content: center;
+    background: #008080;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+}
+
+
+/* BODY */ 
+.search-body {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    height: 100%;
+    max-width: 550px;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+.search-body div {
+    margin-top: 1rem;
+    padding: 0.6rem 1rem;
+}
+
+.search-input {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px #d9d9d9 solid;
+    color: gray;
+}
+
+.search-input:hover {
+    border: 1px lightgray solid;
+    box-shadow: 1px 1px #d9d9d9;
+}
+
+
+.search-input input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    padding: 0 0.5rem;
+}
+
+.search-body input:focus {
+    outline: none;
+}
+
+.search-buttons button {
+    padding: 0.6rem;
+    margin: 0.2rem;
+    background: #f8f9fa;
+    border-radius: 4px;
+    border: none;
+} 
+
+.search-buttons button:hover {
+    border: 1px lightgray solid;
+    box-shadow: 0 1px #d9d9d9;
+    cursor: pointer;
+}
+
+/* FOOTER */
+.footer-menu {
+    background: #f2f2f2;
+    color: gray;
+}
+
+.country,
+.footer-links {
+    padding: 1.2rem;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid lightgray;
+}
+
+.footer-links div {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links div a{
+    margin-right: 1.5rem;
+    color: gray;
+}
+
+@media (max-width: 1200px) {
+    .footer-links {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    } 
+}
