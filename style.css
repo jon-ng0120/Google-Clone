@@ -52,7 +52,7 @@ a:hover {
 
 .apps span:hover {
     background-color: #ededed;
-    box-shadow: 0 0 0 7px #ededed;
+    box-shadow: 0 0 0 6px #ededed;
     cursor: pointer;
 }
 
@@ -90,6 +90,14 @@ a:hover {
     padding: 0.6rem 1rem;
 }
 
+.search-body a {
+    color: #1a0dab;
+}
+
+.search-body a:hover {
+    border-bottom: 1px solid #1a0dab;
+}
+
 .search-input {
     display: flex;
     align-items: center;
@@ -101,7 +109,7 @@ a:hover {
 
 .search-input:hover {
     border: 1px lightgray solid;
-    box-shadow: 1px 1px #d9d9d9;
+    box-shadow: 1px 1px 4px 1px #d9d9d9;
 }
 
 
@@ -110,6 +118,10 @@ a:hover {
     font-size: 1rem;
     border: none;
     padding: 0 0.5rem;
+}
+
+.search-input img:hover {
+    cursor: pointer;
 }
 
 .search-body input:focus {
